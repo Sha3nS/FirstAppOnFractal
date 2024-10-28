@@ -17,3 +17,9 @@ npm run test
 ```sh
 npm run test:testnet
 ```
+
+## Deploy
+```sh
+npx scrypt-cli deploy
+```
+

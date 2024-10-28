@@ -3,7 +3,6 @@ import {
     bsv,
     TestWallet,
     DefaultProvider,
-    sha256,
     toByteString,
 } from 'scrypt-ts'
 
