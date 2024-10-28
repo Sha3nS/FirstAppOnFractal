@@ -20,8 +20,10 @@ class Demo extends SmartContract {
     }
   
     @method()
-    public helloworld() {
+    public helloworld(word: ByteString) {
         console.log(this.x + this.y)
-        assert(this.x + this.y == toByteString('helloworld', true))
+        assert(this.x + this.y == word, "Not Match")
     }
 }
+
+export {Demo}
